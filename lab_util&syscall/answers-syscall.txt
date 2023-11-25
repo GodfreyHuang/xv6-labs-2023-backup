@@ -1,0 +1,5 @@
+Q: Looking at the backtrace output, which function called syscall?
+A: The ans is usertrap() in kernel/trap.c:67
+
+Q: What is the value of p->trapframe->a7 and what does that value represent? (Hint: look user/initcode.S, the first user program xv6 starts.)
+A: 
